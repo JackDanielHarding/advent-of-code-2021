@@ -23,5 +23,13 @@ namespace advent_of_code_tests
             int ans = advent_of_code.Program.IncreasedDepths(input);
             Assert.NotEqual(7, ans);
         }
+
+        [Fact]
+        public void IncreasedDepthsWindowSuccess()
+        {
+            int[] input = { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
+            int ans = advent_of_code.Program.IncreasedDepthsWindow(input);
+            Assert.Equal(5, ans);
+        }
     }
 }
