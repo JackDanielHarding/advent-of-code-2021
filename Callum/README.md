@@ -1,2 +1,2 @@
 Python deps:
-    - numpy: https://github.com/numpy/numpy
+    - None so far :)
