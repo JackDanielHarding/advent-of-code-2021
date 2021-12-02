@@ -1,6 +1,6 @@
 import itertools as it
 
-with open("./1_input.txt", "r") as inputFile:
+with open("./input.txt", "r") as inputFile:
     readingsStr = inputFile.read().splitlines()
     readings = map(int, readingsStr)
     readingA, readingB, readingC = it.tee(readings, 3)
