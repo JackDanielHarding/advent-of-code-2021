@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace advent_of_code
 {
@@ -13,52 +15,35 @@ namespace advent_of_code
             int part1_ans = IncreasedDepths(input);
             Console.WriteLine($"Part 1 Answer: {part1_ans}");
 
-            int part2_ans = IncreasedDepthsWindow(input);
+
+            int part2_ans = IncreasedDepths(getListSegmentSums(input));
             Console.WriteLine($"Part 2 Answer: {part2_ans}");
         }
 
-        public static int IncreasedDepthsWindow(int[] depths)
+        public static List<int> getListSegmentSums(int[] depths)
         {
-            int increasedDepths = 0;
-            int prevDepthSum = -1;
+            List<int> sums = new();
 
+         
             for (int i =0; i< depths.Length -2; i++)
             {
+                int sum = 0;
                 var segment = new ArraySegment<int>(depths, i, 3);
-                int depthSum = 0;
-                foreach (int depth in segment)
-                {
-                    depthSum += depth;
+                foreach (int depth in segment){
+                    sum += depth;
                 }
-
-                if (prevDepthSum != -1 && depthSum > prevDepthSum)
-                {
-                    increasedDepths++;
-                }
-
-                prevDepthSum = depthSum;
+                sums.Add(sum);
             }
 
-            return increasedDepths;
+            return sums;
         }
 
         // Returns the number of depths in the array which are an increase on the previous depth
-        public static int IncreasedDepths(int[] depths)
+        public static int IncreasedDepths(IEnumerable<int> depths)
         {
-            int prevDepth = -1;
-            int increasedDepths = 0;
+            var increasedReadings = depths.Zip(depths.Skip(1), (first, second) => second > first ? 1 : 0);
 
-            foreach (int depth in depths)
-            {
-                if (prevDepth != -1 && depth > prevDepth)
-                {
-                    increasedDepths++;
-                }
-
-                prevDepth = depth;
-            }
-
-            return increasedDepths;
+            return increasedReadings.Sum();
         }
     }
 }
