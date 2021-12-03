@@ -9,7 +9,8 @@ namespace advent_of_code
         static void Main(string[] args)
         {
             // Day1.Start();
-            Day2.Start();
+            // Day2.Start();
+            Day3.Start();
         }
     }
 }
