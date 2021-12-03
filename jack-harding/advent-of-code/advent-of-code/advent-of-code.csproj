@@ -6,4 +6,21 @@
     <RootNamespace>advent_of_code</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Day2TestInput.txt" />
+    <None Remove="Day2TestInput %28copy%29.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Day2TestInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day2TestInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day2TestInput %28copy%29.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

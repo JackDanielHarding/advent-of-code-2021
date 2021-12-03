@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent-of-code", "advent-of-code\advent-of-code.csproj", "{D71697DF-6E15-463F-95F7-D9B6A5080A25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent-of-code", "advent-of-code\advent-of-code.csproj", "{67C252F4-A1FB-4BD2-9CC1-5218B6238381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent-of-code-tests", "advent-of-code-tests\advent-of-code-tests.csproj", "{AB9C3FB9-0309-447F-94D8-1762F5802649}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent-of-code-tests", "advent-of-code-tests\advent-of-code-tests.csproj", "{646EEC8F-EA1A-4928-99E9-F1C0F80EB65D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D71697DF-6E15-463F-95F7-D9B6A5080A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D71697DF-6E15-463F-95F7-D9B6A5080A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D71697DF-6E15-463F-95F7-D9B6A5080A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D71697DF-6E15-463F-95F7-D9B6A5080A25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB9C3FB9-0309-447F-94D8-1762F5802649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB9C3FB9-0309-447F-94D8-1762F5802649}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB9C3FB9-0309-447F-94D8-1762F5802649}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB9C3FB9-0309-447F-94D8-1762F5802649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C252F4-A1FB-4BD2-9CC1-5218B6238381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C252F4-A1FB-4BD2-9CC1-5218B6238381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C252F4-A1FB-4BD2-9CC1-5218B6238381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C252F4-A1FB-4BD2-9CC1-5218B6238381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646EEC8F-EA1A-4928-99E9-F1C0F80EB65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646EEC8F-EA1A-4928-99E9-F1C0F80EB65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646EEC8F-EA1A-4928-99E9-F1C0F80EB65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646EEC8F-EA1A-4928-99E9-F1C0F80EB65D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
