@@ -1,5 +1,3 @@
-from collections import Counter
-
 with open("./input.txt", "r") as inputFile:
     input = inputFile.read()
     
