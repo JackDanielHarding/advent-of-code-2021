@@ -12,7 +12,8 @@ namespace advent_of_code
             // Day02.Start();
             // Day03.Start();
             // Day04.Start();
-            Day05.Start();
+            // Day05.Start();
+            Day06.Start();
         }
     }
 }
