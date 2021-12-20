@@ -8,10 +8,11 @@ namespace advent_of_code
     {
         static void Main(string[] args)
         {
-            // Day1.Start();
-            // Day2.Start();
-            //Day3.Start();
-            Day4.Start();
+            // Day01.Start();
+            // Day02.Start();
+            // Day03.Start();
+            // Day04.Start();
+            Day05.Start();
         }
     }
 }

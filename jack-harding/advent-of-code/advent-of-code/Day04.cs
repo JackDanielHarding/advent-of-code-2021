@@ -6,14 +6,14 @@ using System.Linq;
 
 namespace advent_of_code
 {
-    public class Day4
+    public class Day04
     {
         public static void Start()
         {
             Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
             Trace.AutoFlush = true;
 
-            string[] inputLines = File.ReadAllLines("Day4RealInput.txt");
+            string[] inputLines = File.ReadAllLines("Day04RealInput.txt");
 
             IEnumerable<string> draws = inputLines[0].Split(",");
 
