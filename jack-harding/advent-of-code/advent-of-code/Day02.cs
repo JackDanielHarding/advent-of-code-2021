@@ -5,13 +5,13 @@ using System.Linq;
 
 namespace advent_of_code
 {
-    public class Day2
+    public class Day02
     {
         public static void Start()
         {
             // Part 1
 
-            string[] commands = File.ReadAllLines("Day2RealInput.txt");
+            string[] commands = File.ReadAllLines("Day02RealInput.txt");
 
             SubmarinePositionBasic subPosBasic = new();
 

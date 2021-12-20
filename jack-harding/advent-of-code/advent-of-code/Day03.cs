@@ -7,14 +7,14 @@ using System.Linq;
 
 namespace advent_of_code
 {
-    public class Day3
+    public class Day03
     {
         public static void Start()
         {
             Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
             Trace.AutoFlush = true;
 
-            string[] inputs = File.ReadAllLines("Day3RealInput.txt");
+            string[] inputs = File.ReadAllLines("Day03RealInput.txt");
 
             //Part1(inputs);
 
